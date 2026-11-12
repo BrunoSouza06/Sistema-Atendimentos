@@ -1,0 +1,30 @@
+# Node
+node_modules/
+
+# Next
+.next/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# VS Code
+.vscode/
+
+# Build
+dist/
+build/
+
+# .NET
+bin/
+obj/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Configurações locais
+backend/appsettings.json

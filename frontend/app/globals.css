@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fbf1e9;
+  --bg-card: #fffdfb;
+  --teal-900: #0e4f4b;
+  --teal-600: #1f8078;
+  --teal-400: #5cb3a8;
+  --wine-700: #7c2743;
+  --wine-500: #a3395a;
+  --sage-100: #e3efdd;
+  --ink-900: #2b2420;
+  --ink-500: #8a7d73;
+  --line: #ead9cb;
+}
+
+.font-display {
+  font-family: var(--font-display), serif;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    100deg,
+    var(--teal-900),
+    var(--teal-400) 55%,
+    var(--wine-500)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.texture-bg {
+  background-image:
+    radial-gradient(circle at 8% 8%, rgba(31, 128, 120, 0.09), transparent 40%),
+    radial-gradient(
+      circle at 92% 15%,
+      rgba(124, 39, 67, 0.07),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 50% 105%,
+      rgba(31, 128, 120, 0.06),
+      transparent 50%
+    );
+}
